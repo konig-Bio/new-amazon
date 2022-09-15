@@ -1575,11 +1575,11 @@ body {
 @media screen and (max-width:768px){
     body{
         overflow-x: hidden;
-        width:100vw;
+        width:fit-content;
     }
 
     .nav{
-        width:fit-content;
+        width: 1500px;
         height:60px;
     }
 
@@ -1594,9 +1594,338 @@ body {
     }
 
     .last-nav{
-        width:fit-content !important;
+        width: 100%;
+    }
+
+    /* .general-grid{
+        width:100vw;
+    } */
+    .slider-pic{
+        width:100%
+    }
+
+    .greater {
+        left: 1300px;
+    }
+
+
+    .book-sellers {
+        width: 1350px;
+    }
+
+
+    .Home-decor{
+        width: 1350px;
+    }
+
+
+    .beauty {
+        width: 1350px;
+    }
+
+
+    .beauty-greater {
+        left: 1300px;
+    }
+
+
+    .kitchen{
+        width: 1350px;
+    }
+
+
+    .kitchen-greater{
+        left: 1300px;
+    }
+
+
+    .cart{
+        display: none;
+    }
+
+
+    .dress{
+        display: none;
+    }
+
+    .first-grid{
+        grid-template-columns: repeat(3,1fr);
+        width: 100%;
+    }
+
+
+    .gaming-accessory-pix {
+        justify-content: center; 
+        width:100%;       
+    }
+
+    .gaming-access{
+        width:500px;
+    }
+    .accessory-pix, .accessory-pix-2{
+        width: 185.758px;
+    }
+
+    .acc-1,.acc-5,.acc-6,.acc-7,.acc-8{
+        width:250px;
+    }
+
+    .acc-1,.acc-5,.acc-6,.acc-7,.acc-8 > img{
+        width:250px;
+    }
+
+
+    .accessory-name,.accessory-name-1,.accessory-name-2,
+    .link,.link-11{
+        font-size: 29px;
+    }
+
+
+    .accessory-text{
+        font-size: 35px;
+    }
+
+
+    .gaming-accessory-pix-2{
+        justify-content: space-between;
+    }
+
+    .we-ship{
+        width:500px;
+        display: flex;
+        align-items: center;
+        row-gap: 25px;
+    }
+
+    .we-ship-1{
+        width:80%;
+    }
+
+    .we-ship-box{
+        width:80%;
+    }
+
+    .we-ship-pix{
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+        width:100%;
+        margin:0;
+    }
+
+    .grid-line-2{
+        margin-top: 280px;
+    }
+
+    /* First column box finished */
+
+
+
+    /* Second column box style starts */
+
+    .grid-line-2 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .elect-text {
+        font-size: 35px;
+    }
+    .col2 {
+        margin-left: 100px;
+    }
+    .col-tx{
+        margin-left: 20px;
+        font-size: 40px;
+    } 
+    .delete {
+        display: none;
+    }
+    .book-seller-box-1 {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+    .book-sellers {
+         width: 1500px;
+    }
+    .greater {
+        position: absolute;
+        left: 94%;
+    }
+    .book-seller-pix {
+        width: 200px;
+        height: 220px;
+    }
+    .book-text-2 {
+        font-size: 35px;
+    }
+    .Home-decor,.beauty {
+        width: 1500px;
+    }
+    .decor-pix {
+        width: 250px;
+        gap: 5px;
+    }
+    .grid-line-3 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .light-pix {
+        width: 378px;
+        height: 303px;
+        margin-left: 55px;
+    }
+    .top-deal-text {
+        font-size: 35px;
+    }
+    .elect-link {
+        font-size: 20px;
+    }
+    .beauty-greater {
+        position: absolute;
+        top: 2750px;
+        left: 91%;
+    }
+    .beauty-less {
+        position: absolute;
+        top: 2750px;
+    }
+    .beauty-box-1 {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .beauty-pix-1 {
+        width: 35px;
+        height: 200px;
+    }
+    .kitchen-greater {
+        position: absolute;
+        left: 90%;
+        top: 2750px;
+    }
+    .kitchen-less {
+        position: absolute;
+        top: 2750px;
+    }
+    .kitchen-box-1{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .kitchen-pix-1 {
+        width: 200px;
+        height: 200px;
+    }
+    .kitchen {
+        width: 1500px;
+    }
+    .kitchen-greater {
+        position: absolute;
+        top: 3100px;
+    }
+    .kitchen-less {
+        position: absolute;
+        top: 3100px;
+    }
+    .tracker {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .tracker-text {
+        font-size: 35px;
+    }
+    .tracker-pix {
+        width: 398px;
+        height: 303px;
+        margin-left: 14%;
+    }
+    .tracker-picture {
+        margin-left: 5px;
+    }
+    .pc {
+        width: 1500px;
+    }
+    .pc-greater {
+        position: absolute;
+        top: 3940px;
+        left: 96%;
+    }
+    .pc-box {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+    .pc-pix-1 {
+        width: 370px;
+        height: 200px;
+        margin-left: 70px;
+    }
+    .pc-pix-2 {
+        width: 350px;
+        height: 200px;
+    }
+    .pc-pix-3 {
+        width: 370px;
+        height: 200px;
+    }
+    .pc-less {
+        position: absolute;
+        top: 3900px;
+    }
+    .pc-greater {
+        position: absolute;
+        top: 3900px;
+    }
+    .baby-less,.home-less,.baby-greater,.home-greater,.pc-less {
+        display: none;
+    }
+    .history {
+        height: 0;
+    }
+    .history-text{
+        font-size: 35px;
+    }
+    .history-grid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin-top: 55px;
+        margin-right: 100px;
+    }
+    .history-pix-1 {
+        width: 300px;
+        height: 260px;
+    }
+    .history-pix-2 {
+        width: 300px;
+        height: 260px;
+    }
+    .history-pix-3{
+        width: 300px;
+        height: 260px;
+    }
+    .history-pix-4{
+        width: 300px;
+        height: 260px;
+    }
+    .history-link{
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .baby-box,.baby-grid,.home-box,.home-text {
+        display: none;
+    }
+    .line-2 {
+        margin-top: -750px;
+    }
+    .history {
+        margin-top: 1000px;
+    }
+    .last-footer-gridd {
+        margin-top: 0px;
     }
 }
 
+
+@media screen and(min-width:1440px) {
+    
+}
 
 
