@@ -1921,5 +1921,9 @@ body {
     .last-footer-gridd {
         margin-top: 0px;
     }
+    
+    .history-line {
+        display: none;
+    }
 }
 
